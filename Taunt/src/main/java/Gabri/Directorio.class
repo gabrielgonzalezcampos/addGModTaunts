@@ -1,0 +1,16 @@
+package Gabri.Directorio;
+
+public class Directorio{
+    int numberArchivos;
+    int numberDirectorios;
+    String path;
+    ArrayList<Archivos> listaArchivos;
+    ArrayList<Directorios> listaDirectorios;
+
+    Directorio(){
+        numberArchivos=0;
+        numberDirectorios=0;
+        listaDirectorios= new ArrayList<Directorios>();
+        listaArchivos= new ArrayList<Archivos>();
+    }
+}

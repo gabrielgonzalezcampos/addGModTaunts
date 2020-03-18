@@ -1,0 +1,11 @@
+package Gabri.Archivo;
+
+public class Archivo{
+    String fileName;
+    String extension;
+
+    Archivo(String name, String container){
+        fileName =name;
+        extension= container;
+    }
+}
